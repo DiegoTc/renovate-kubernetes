@@ -28,7 +28,7 @@ kind: CronJob
 metadata:
   name: renovate-bot
 spec:
-  schedule: '@hourly'
+  schedule: '*/5 8-17 * * 1-5'
   concurrencyPolicy: Forbid
   jobTemplate:
     spec:
