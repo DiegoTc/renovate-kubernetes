@@ -28,7 +28,7 @@ kind: CronJob
 metadata:
   name: renovate-bot
 spec:
-  schedule: '*/5 * * * *'
+  schedule: '*/3 * * * *'
   concurrencyPolicy: Forbid
   jobTemplate:
     spec:
