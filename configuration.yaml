@@ -15,15 +15,11 @@ data:
       "kubernetes": {
         "fileMatch": ["argo/.+\\.yml$"]
       },
-      "module.exports" = {
-        hostRules: [
-          {
-            hostType: 'docker',
-            username: process.env.DOCKER_HUB_USERNAME,
-            password: process.env.DOCKER_HUB_PASSWORD,
-          },
-        ],
-      };
+      "hostRules": [{
+          "hostType": 'docker',
+          "username": process.env.DOCKER_HUB_USERNAME,
+          "password": process.env.DOCKER_HUB_PASSWORD,
+      }]
     }
 
 ---
