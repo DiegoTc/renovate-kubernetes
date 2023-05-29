@@ -14,12 +14,7 @@ data:
       "baseBranches": ["master"],
       "kubernetes": {
         "fileMatch": ["argo/.+\\.yml$"]
-      },
-      "hostRules": [{
-          "hostType": 'docker',
-          "username": 'diegotc',
-          "password": process.env.DOCKER_HUB_PASSWORD,
-      }]
+      }
     }
 
 ---
