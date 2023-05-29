@@ -17,7 +17,7 @@ data:
       },
       "hostRules": [{
           "hostType": 'docker',
-          "username": diegotc,
+          "username": 'diegotc',
           "password": process.env.DOCKER_HUB_PASSWORD,
       }]
     }
