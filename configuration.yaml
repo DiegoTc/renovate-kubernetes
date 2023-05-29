@@ -12,11 +12,11 @@ data:
       "enabled": true,
       "logFormat": "json",
       "baseBranches": ["main"],
+      "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+      "labels": ["renovate"],
       "kubernetes": {
         "fileMatch": ["argo/.+\\.yml$"]
       }
-    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-    "labels": ["renovate"]
     }
 
 ---
