@@ -11,10 +11,12 @@ data:
       "enabledManagers": ["kubernetes"],
       "enabled": true,
       "logFormat": "json",
-      "baseBranches": ["master"],
+      "baseBranches": ["main"],
       "kubernetes": {
         "fileMatch": ["argo/.+\\.yml$"]
       }
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "labels": ["renovate"]
     }
 
 ---
