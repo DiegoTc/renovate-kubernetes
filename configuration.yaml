@@ -15,7 +15,7 @@ data:
       "$schema": "https://docs.renovatebot.com/renovate-schema.json",
       "labels": ["renovate"],
       "kubernetes": {
-        "fileMatch": ["argo/.+\\.yml$"]
+        "fileMatch": ["^argo/.*\\.yaml$"]
       }
     }
 
