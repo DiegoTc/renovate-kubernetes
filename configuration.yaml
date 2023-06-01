@@ -19,7 +19,7 @@ data:
       }
       "packageRules": [{
         "matchDatasources": ["docker"],
-        "matchPackageNames": ["diegotc/guestbook"],
+        "matchPackageNames": ["diegotc\/guestbook"],
         "extractVersion": "^(?<version>\\d+-\\d+)"
       }]
     }
