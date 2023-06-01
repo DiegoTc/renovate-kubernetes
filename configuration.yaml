@@ -16,7 +16,7 @@ data:
       "labels": ["renovate"],
       "kubernetes": {
         "fileMatch": ["^argo/.*\\.yaml$"]
-      }
+      },
       "packageRules": [{
         "matchDatasources": ["docker"],
         "matchPackageNames": ["diegotc\/guestbook"],
