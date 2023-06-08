@@ -20,10 +20,10 @@ data:
       "kubernetes": {
         "fileMatch": ["^argo/.*\\.yaml$"]
       },
-      "packageRules": [{
+        "packageRules": [{
         "matchDatasources": ["docker"],
         "matchPackageNames": ["diegotc\/guestbook"],
-        "extractVersion": "^(?<version>.*)$"
+        "extractVersion": "\d*-\d*$"
       }]
     }
 
