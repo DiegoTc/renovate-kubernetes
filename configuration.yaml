@@ -23,8 +23,8 @@ data:
         "packageRules": [{
         "matchDatasources": ["docker"],
         "matchPackageNames": ["diegotc\/guestbook"],
-        "extractVersion": "\d*-\d*$",
-        "versioning": "regex:\d*-\d*$"
+        "extractVersion": "/\d*-/\d*$",
+        "versioning": "regex:/\d*-/\d*$"
       }]
     }
 
