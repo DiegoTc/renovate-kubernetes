@@ -22,8 +22,8 @@ data:
       },
         "packageRules": [{
         "matchDatasources": ["docker"],
-        "matchPackageNames": ["diegotc\/guestbook"],
-        "versioning": "regex:^(/\d*-/\d*)$"
+        "matchPackageNames": ["diegotc/guestbook"],
+        "versioning": "regex:^(\\dd*-\\dd*)$"
       }]
     }
 
